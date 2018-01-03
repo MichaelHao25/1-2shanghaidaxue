@@ -291,6 +291,15 @@
 	<script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
 	<script src="js/library-3.1.8.js" type="text/javascript"></script>
 	<script src="js/index.js" type="text/javascript"></script>
+	<script src="js/laydate/laydate.js"></script>
+	<script>
+		laydate.render({
+			elem: '.c-date-select .c-child-container .option .item a',
+			calendar: true,
+			min:0,
+			max:15,
+		});
+	</script>
 	<script>
 		fade(".banner .bann ul li",".banner .cirl ul li",3000,".banner .les",".banner .rts");
 	</script>
